@@ -34,7 +34,7 @@ types = "START"
 description = ""
 sec = 10  # 随机在0~sec秒执行打卡
 isWeekCloak = True  # 周末是否打卡  True 可以  False 不可
-serveSendKey = "SCT189646TxhAkXWXekyi6zZLrjJusbN9m"  # serve酱KEY http://sc.ftqq.com/?c=wechat&a=bind
+serveSendKey = ""  # serve酱KEY http://sc.ftqq.com/?c=wechat&a=bind
 
 # =================！！！！！以下内容不建议修改！！！！！！=======================
 # =================！！！！！以下内容不建议修改！！！！！！=======================
