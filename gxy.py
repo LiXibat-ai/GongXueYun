@@ -20,15 +20,15 @@ current_milli_time = lambda: int(round(time.time() * 1000))
 # 每天定时自动打卡 参考：https://www.lxlinux.net/525.html?ivk_sa=1024320u
 # =================用户配置  可修改=======================
 
-phone = "13600840756"  # 账号
-password = "Qa20010915"  # 密码
-country = "中国"  # 国家
-province = "福建省"  # 省
-city = "福州市"  # 城市
-district = "台江区"
-address = "福建省 · 福州市 · 台江区 · 六一中路464号福州市轻工供销大楼F1层"  # 地址
-lat = "26.055496"  # 纬度   https://lbs.amap.com/tools/picker 根据地址找经纬度
-lon = "119.320354"  # 经度   https://lbs.amap.com/tools/picker 根据地址找经纬度
+phone = ""  # 账号
+password = ""  # 密码
+country = ""  # 国家
+province = ""  # 省
+city = ""  # 城市
+district = ""
+address = "xx省 · xx市 · xx区 · xxxx"  # 地址
+lat = ""  # 纬度   https://lbs.amap.com/tools/picker 根据地址找经纬度
+lon = ""  # 经度   https://lbs.amap.com/tools/picker 根据地址找经纬度
 # 打卡类型，START和END，START 上班，END 下班  执行时间会改变 这里默认12点前上班 不然下班 具体参考114行
 types = "START"
 description = ""
